@@ -1,0 +1,374 @@
+*{
+  
+    margin:0;
+    padding: 0;
+    color: #484848;
+    font-optical-sizing: auto;
+    font-family: "Familjen Grotesk", sans-serif;
+  
+}
+
+
+@import url(https://fonts.google.com/specimen/Space+Grotesk);
+ 
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* icons styles */
+.fa-solid{
+    color: #2E2E2E;
+    font-size: 20px;
+}
+.fa-brands{
+    color: #2E2E2E;
+    font-size: 25px;
+    cursor: pointer;
+}
+.fa-regular{
+    color: #16A34A;
+    font-size: 50px; 
+}
+.fa{
+    color: #2E2E2E;
+    font-size: 20px;
+}
+/* icons styles */
+
+/* fonts */
+strong{
+    color: #F59E0B;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 500;
+    font-family: "Familjen Grotesk";
+}
+h1{
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Familjen Grotesk";
+}
+h2{
+    font-size: 40px;
+    line-height: 48px;
+    text-align: left;
+    font-weight: 600;
+    font-family: "Familjen Grotesk";
+}
+h3{
+    font-size: 24px;
+    line-height: 28px;
+    text-align: left;
+    font-weight: 600;
+    font-family: "Averta";
+}
+h4{
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 600;
+    font-family: "Averta";
+}
+h5{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: "Familjen Grotesk";
+}
+h6{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    font-family: "Familjen Grotesk";
+}
+.txt{
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: "Familjen Grotesk";
+}
+.txt2{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "Familjen Grotesk";
+}
+.txt3{
+    font-size: 40px;
+    line-height: 36px;
+    font-weight: 400;
+    font-family: "Familjen Grotesk";
+}
+.txt4{
+    font-weight: 600;
+    font-family: "Familjen Grotesk";
+}
+
+p{
+    font-weight: 400;
+    font-family: "Familjen Grotesk";
+}
+
+/* fonts */
+/* nav bar  */
+@media (min-width: 768px){
+    .cass{
+      background: none;
+    }
+}
+.bgColor{
+    background-color: #262423;
+    transition: 5s;
+}
+/* nav bar  */
+
+.bigcolour{
+    
+    /* background-image: linear-gradient(3deg, rgba(22, 101, 52, 1), rgba(187, 247, 208, 0.505), rgba(255, 255, 255, 0)); */
+      background: linear-gradient(359.96deg, #166534 11.87%, rgba(187, 247, 208, 0.505) 28.56%, rgba(255, 255, 255, 0) 41.64%);
+     
+}
+
+/* contact form */
+
+.group1{
+    display: flex;
+    flex-direction: column;
+}
+input {
+    display: block;
+    width: 100%;
+    line-height: 24px;
+    font-size: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    padding-top: 12px;
+    padding-right: 15px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    border-color: #f4f4f4;
+    color: #484848;
+    background-color: #f4f4f4;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    line-height: 24px;
+    font-size: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    resize: none;
+    height: 110px;
+    padding-top: 12px;
+    padding-right: 15px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    z-index: 1;
+    border-color: #f4f4f4;
+    background-color: #f4f4f4;
+}
+
+textarea:-ms-input-placeholder {
+    font-size: 14px;
+    color: #484848;
+    font-weight: normal;
+}
+
+
+/* buttons */
+
+
+
+button {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Familjen Grotesk';
+    text-transform: capitalize;
+    line-height: 20px;
+    width: 100%;
+    text-align: center;
+    padding-top: 16px;
+    padding-right: 40px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    background: #15803D;
+    color:#FFFFFF ;
+    border-radius: 8px ;
+    border:2px solid #15803D;
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+
+
+button:hover {
+    background-color: #505050;
+    border-color: #38E427;
+    color: #38E427;
+    border-radius: 20px;
+}
+
+
+
+
+
+/* solution starts */
+
+/* slider starts */
+
+.slider-container{
+    /* max-width: 1120px; */
+    width: 100%;
+    background-color: white;
+    padding: 40px 0;
+
+}
+.slide-content{
+    margin: 0 27px;
+}
+.card{
+    width: 320px;
+    border-radius: 25px;
+    border: 1px solid #F4F4F4;
+    background-color:#FFFFFF;
+}
+.card:hover{
+    transition: all 3ms ease;
+    box-shadow: #484848;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px 30px;
+    gap: 8px;
+}
+.image-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 23px;
+    gap: 8px;
+}
+.image-content{
+    position: relative;
+    row-gap: 5px;
+    
+}
+/* .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px 25px 0 25px;
+    background-color: #16A34A;
+}
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #16A34A;
+}
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: #F0FDF4;
+} */
+.card-image{
+    position: relative;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: #FFF;
+    padding: 3px;
+}
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.name{
+    font-size: 20px;
+    font-weight: 600;
+    color: #484848;
+    line-height: 32px;
+    font-family: "Familjen Grotesk";
+}
+.discription{
+    font-size: 16px;
+    color: #484848;
+    text-align: center;
+    line-height: 24px;
+}
+.btn{
+    border: none !important;
+    font-size: 16px;
+    color: #FFF ;
+    padding: 8px 16px !important;
+    background-color: #16A34A !important;
+    border-radius: 6px !important;
+    margin: 14px !important;
+    cursor: pointer;
+    transition:all 0.3s ease !important ;
+}
+.btn:hover{
+    background-color: #505050 !important;
+}
+
+
+/* .swiper-pagination {
+    position: relative;
+    bottom: 0px !important;
+    
+}
+.swiper-pagination-bullet-active{
+    background: #16A34A !important;
+} */
+/* slider starts end here*/
+
+
+
+.triangle {
+    position: absolute;
+    left: -200px;
+    width: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid #166534;
+    border-top: 100px solid transparent;
+}
+.triangle::after{
+    content: '';
+    position: absolute;
+    left: -200px;
+    width: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid #166534;
+    border-top: 100px solid transparent;
+    
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotate-infinite {
+    animation: rotate 34s linear infinite;
+}
+
+
+/* solution ends */

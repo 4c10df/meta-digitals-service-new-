@@ -214,17 +214,13 @@ button:hover {
 }
 
 .learn {
-    text-transform: uppercase !important;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: 'Familjen Grotesk';
-    text-transform: capitalize;
-    line-height: 20px;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     text-align: center;
     padding: 9px, 24px, 9px, 24px;
     background: #F0FDF4;
-    color:#15803D ;
     border:none;
     border-radius: 8px ;
     transition-duration: 300ms;

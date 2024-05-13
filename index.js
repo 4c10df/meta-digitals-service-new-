@@ -7,28 +7,16 @@ function Menu(e){
 
   
 // play video
-// document.addEventListener('DOMContentLoaded', () => {
-//     const videoOverlay = document.querySelector('.inner-box');
-    
-    
-    
-//     const youtubeVideo = document.getElementById('player');
-//     const closeButton = document.getElementById('close-button');
+document.addEventListener('DOMContentLoaded', () => {
+    const video = document.getElementById('myVideo');
 
-//     videoOverlay.addEventListener('click', () => {
-//         videoOverlay.style.display = 'none';
-//         youtubeVideo.style.display = 'block';
-//         player.playVideo();
-//     });
-
-//     closeButton.addEventListener('click', () => {
-//         youtubeVideo.style.display = 'none';
-//         videoOverlay.style.display = 'block';
-//         player.pauseVideo();
-//     });
-
-   
-// });
+    // Listen for the 'ended' event
+    video.addEventListener('ended', () => {
+        // Restart the video by setting the current time to 0
+        video.currentTime = 0;
+        video.play(); // Start playing again
+    });
+});
 
 //// bg color for nav  ////////
 document.addEventListener('DOMContentLoaded', () => {

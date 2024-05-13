@@ -4,7 +4,7 @@
     padding: 0;
     color: #484848;
     font-optical-sizing: auto;
-    font-family: "Familjen Grotesk", sans-serif;
+    font-family: "Familjen Grotesk";
   
 }
 
@@ -213,8 +213,43 @@ button:hover {
     border-radius: 20px;
 }
 
+.learn {
+    text-transform: uppercase !important;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Familjen Grotesk';
+    text-transform: capitalize;
+    line-height: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 9px, 24px, 9px, 24px;
+    background: #F0FDF4;
+    color:#15803D ;
+    border:none;
+    border-radius: 8px ;
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
 
 
+.learn:hover {
+    border-color: #38E427;
+    color: #38E427;
+    border-radius: 20px;
+}
+
+
+/* homepage */
+.video {
+    opacity: 1;
+    transition: opacity 1s ease-in-out; /* Add a transition for the opacity property */
+}
+
+.video.fade-out {
+    opacity: 0; /* Set opacity to 0 to fade out the video */
+}
+/* homepage */
 
 
 /* solution starts */

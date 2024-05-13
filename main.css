@@ -3,7 +3,7 @@
   padding: 0;
   color: #484848;
   font-optical-sizing: auto;
-  font-family: "Familjen Grotesk", sans-serif;
+  font-family: "Familjen Grotesk";
 }
 
 /*
@@ -968,6 +968,14 @@ video {
   height:100%;
 }
 
+.h-\[\]{
+  height:;
+}
+
+.h-\[20px\]{
+  height:20px;
+}
+
 .w-\[1152px\]{
   width:1152px;
 }
@@ -990,6 +998,10 @@ video {
 
 .w-\[165px\]{
   width:165px;
+}
+
+.w-\[174px\]{
+  width:174px;
 }
 
 .w-\[175px\]{
@@ -1341,6 +1353,36 @@ video {
   padding-bottom:9px;
 }
 
+.py-\[\]{
+  padding-top:;
+  padding-bottom:;
+}
+
+.\!px-\[40px\]{
+  padding-left:40px !important;
+  padding-right:40px !important;
+}
+
+.\!py-\[16px\]{
+  padding-top:16px !important;
+  padding-bottom:16px !important;
+}
+
+.\!px-\[0px\]{
+  padding-left:0px !important;
+  padding-right:0px !important;
+}
+
+.\!py-\[6px\]{
+  padding-top:6px !important;
+  padding-bottom:6px !important;
+}
+
+.\!px-\[10px\]{
+  padding-left:10px !important;
+  padding-right:10px !important;
+}
+
 .pb-\[15px\]{
   padding-bottom:15px;
 }
@@ -1443,6 +1485,10 @@ video {
   font-size:40px;
 }
 
+.\!text-\[23px\]{
+  font-size:23px !important;
+}
+
 .\!font-bold{
   font-weight:700 !important;
 }
@@ -1477,6 +1523,10 @@ video {
 
 .\!leading-\[24px\]{
   line-height:24px !important;
+}
+
+.\!leading-\[39px\]{
+  line-height:39px !important;
 }
 
 .\!leading-\[50px\]{
@@ -1905,6 +1955,46 @@ button:hover {
   border-radius: 20px;
 }
 
+.learn {
+  text-transform: uppercase !important;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Familjen Grotesk';
+  text-transform: capitalize;
+  line-height: 20px;
+  width: 100%;
+  text-align: center;
+  padding: 9px, 24px, 9px, 24px;
+  background: #F0FDF4;
+  color:#15803D ;
+  border:none;
+  border-radius: 8px ;
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+}
+
+.learn:hover {
+  border-color: #38E427;
+  color: #38E427;
+  border-radius: 20px;
+}
+
+/* homepage */
+
+.video {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+  /* Add a transition for the opacity property */
+}
+
+.video.fade-out {
+  opacity: 0;
+  /* Set opacity to 0 to fade out the video */
+}
+
+/* homepage */
+
 /* solution starts */
 
 /* slider starts */
@@ -2102,6 +2192,26 @@ button:hover {
   color:rgb(56 228 39 / var(--tw-text-opacity));
 }
 
+@media (min-width: 414px){
+  .ip8\:h-auto{
+    height:auto;
+  }
+
+  .ip8\:\!px-\[40px\]{
+    padding-left:40px !important;
+    padding-right:40px !important;
+  }
+
+  .ip8\:\!py-\[16px\]{
+    padding-top:16px !important;
+    padding-bottom:16px !important;
+  }
+
+  .ip8\:\!text-\[28px\]{
+    font-size:28px !important;
+  }
+}
+
 @media (min-width: 500px){
   .at500\:w-\[129px\]{
     width:129px;
@@ -2131,6 +2241,10 @@ button:hover {
     margin-bottom:50px;
   }
 
+  .sm\:h-\[642px\]{
+    height:642px;
+  }
+
   .sm\:w-\[160px\]{
     width:160px;
   }
@@ -2157,6 +2271,10 @@ button:hover {
 
   .sm\:text-\[33px\]{
     font-size:33px;
+  }
+
+  .sm\:\!leading-\[64px\]{
+    line-height:64px !important;
   }
 }
 
@@ -2296,14 +2414,6 @@ button:hover {
   .lg\:pl-7{
     padding-left:1.75rem;
   }
-
-  .lg\:pl-\[70px\]{
-    padding-left:70px;
-  }
-
-  .lg\:pr-0{
-    padding-right:0px;
-  }
 }
 
 @media (min-width: 1280px){
@@ -2379,10 +2489,5 @@ button:hover {
 
   .\32xl\:max-w-\[1116px\]{
     max-width:1116px;
-  }
-
-  .\32xl\:px-\[70px\]{
-    padding-left:70px;
-    padding-right:70px;
   }
 }

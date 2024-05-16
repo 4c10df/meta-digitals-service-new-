@@ -968,10 +968,6 @@ video {
   height:62px;
 }
 
-.h-\[63px\]{
-  height:63px;
-}
-
 .h-\[6px\]{
   height:6px;
 }
@@ -1222,11 +1218,6 @@ video {
   background-color:rgb(21 128 61 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#166534\]{
-  --tw-bg-opacity:1;
-  background-color:rgb(22 101 52 / var(--tw-bg-opacity));
-}
-
 .bg-\[\#ECECEC\]{
   --tw-bg-opacity:1;
   background-color:rgb(236 236 236 / var(--tw-bg-opacity));
@@ -1420,10 +1411,6 @@ video {
 
 .font-Familjen{
   font-family:Familjen Grotesk;
-}
-
-.font-garamond{
-  font-family:"Galano Grotesque";
 }
 
 .font-mono{
@@ -1740,6 +1727,13 @@ video {
 .no-scrollbar{
   -ms-overflow-style:none;
   scrollbar-width:none;
+}
+
+@media (min-width: 640px){
+  .logo{
+    width: 127px;
+    height:63px ;
+  }
 }
 
 /* icons styles */
@@ -2170,7 +2164,7 @@ button:hover {
   left: -200px;
   width: 0;
   border-left: 100px solid transparent;
-  border-right: 100px solid #166534;
+  border-right: 100px solid #15803D;
   border-top: 100px solid transparent;
 }
 
@@ -2180,7 +2174,7 @@ button:hover {
   left: -200px;
   width: 0;
   border-left: 100px solid transparent;
-  border-right: 100px solid #166534;
+  border-right: 100px solid #15803D;
   border-top: 100px solid transparent;
 }
 
@@ -2340,14 +2334,6 @@ button:hover {
 
   .md\:w-\[183px\]{
     width:183px;
-  }
-
-  .md\:w-\[344px\]{
-    width:344px;
-  }
-
-  .md\:w-\[394px\]{
-    width:394px;
   }
 
   .md\:w-\[564px\]{

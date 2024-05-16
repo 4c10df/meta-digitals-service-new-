@@ -746,6 +746,10 @@ video {
   left:0px;
 }
 
+.left-\[-191px\]{
+  left:-191px;
+}
+
 .right-\[66px\]{
   right:66px;
 }
@@ -764,6 +768,10 @@ video {
 
 .top-\[117px\]{
   top:117px;
+}
+
+.top-\[266px\]{
+  top:266px;
 }
 
 .top-\[51px\]{
@@ -896,6 +904,10 @@ video {
   display:none;
 }
 
+.h-\[158px\]{
+  height:158px;
+}
+
 .h-\[174px\]{
   height:174px;
 }
@@ -908,8 +920,8 @@ video {
   height:20px;
 }
 
-.h-\[213\.66px\]{
-  height:213.66px;
+.h-\[221\.66px\]{
+  height:221.66px;
 }
 
 .h-\[246px\]{
@@ -924,10 +936,6 @@ video {
   height:2px;
 }
 
-.h-\[344\.37px\]{
-  height:344.37px;
-}
-
 .h-\[368px\]{
   height:368px;
 }
@@ -938,6 +946,10 @@ video {
 
 .h-\[43\.41px\]{
   height:43.41px;
+}
+
+.h-\[52\.33px\]{
+  height:52.33px;
 }
 
 .h-\[52px\]{
@@ -954,6 +966,10 @@ video {
 
 .h-\[62px\]{
   height:62px;
+}
+
+.h-\[63px\]{
+  height:63px;
 }
 
 .h-\[6px\]{
@@ -992,6 +1008,10 @@ video {
   width:154px;
 }
 
+.w-\[158px\]{
+  width:158px;
+}
+
 .w-\[165px\]{
   width:165px;
 }
@@ -1024,8 +1044,8 @@ video {
   width:278px;
 }
 
-.w-\[386px\]{
-  width:386px;
+.w-\[52\.32px\]{
+  width:52.32px;
 }
 
 .w-\[60px\]{
@@ -1103,6 +1123,10 @@ video {
 
 .gap-8{
   gap:2rem;
+}
+
+.gap-\[20px\]{
+  gap:20px;
 }
 
 .gap-\[30px\]{
@@ -1247,6 +1271,10 @@ video {
   background-size:cover;
 }
 
+.bg-fixed{
+  background-attachment:fixed;
+}
+
 .bg-center{
   background-position:center;
 }
@@ -1356,11 +1384,6 @@ video {
 .py-\[60px\]{
   padding-top:60px;
   padding-bottom:60px;
-}
-
-.py-\[9px\]{
-  padding-top:9px;
-  padding-bottom:9px;
 }
 
 .pb-\[15px\]{
@@ -1834,15 +1857,34 @@ p{
 
 /* nav bar  */
 
-@media (min-width: 768px){
+@media (min-width: 764px){
   .cass{
     background: none;
+  }
+
+  ul.cass li {
+    color: #FFFFFF;
+    /* Set the default text color for mobile*/
+    transition: all 2ms ease;
+  }
+
+  /* Change text color on scroll */
+
+  header.scrolled ul.cass li {
+    color: #2E2E2E;
+    /* Set the text color when scrolled */
+    transition: all 2ms ease;
   }
 }
 
 .bgColor{
-  background-color: #262423;
-  transition: 5s;
+  background-color: #FFFFFF;
+  transition: 2ms ease;
+}
+
+ul li {
+  color: #2E2E2E;
+  /* Set the default text color */
 }
 
 /* nav bar  */
@@ -1853,6 +1895,35 @@ p{
 }
 
 /* contact form */
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.rotate-onload {
+  -webkit-animation: rotate 5s linear ;
+          animation: rotate 5s linear ;
+}
 
 .group1{
   display: flex;
@@ -2113,35 +2184,6 @@ button:hover {
   border-top: 100px solid transparent;
 }
 
-@-webkit-keyframes rotate {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-@keyframes rotate {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-.rotate-infinite {
-  -webkit-animation: rotate 34s linear infinite;
-          animation: rotate 34s linear infinite;
-}
-
 /* solution ends */
 
 .hover\:text-\[\#0260EE\]:hover{
@@ -2185,6 +2227,10 @@ button:hover {
 }
 
 @media (min-width: 500px){
+  .at500\:flex{
+    display:flex;
+  }
+
   .at500\:w-\[129px\]{
     width:129px;
   }
@@ -2217,12 +2263,24 @@ button:hover {
     margin-bottom:50px;
   }
 
+  .sm\:h-\[344\.37px\]{
+    height:344.37px;
+  }
+
+  .sm\:h-\[63px\]{
+    height:63px;
+  }
+
   .sm\:w-\[167px\]{
     width:167px;
   }
 
   .sm\:w-\[233px\]{
     width:233px;
+  }
+
+  .sm\:w-\[386px\]{
+    width:386px;
   }
 
   .sm\:w-\[491px\]{
@@ -2308,6 +2366,10 @@ button:hover {
     grid-template-columns:repeat(3, minmax(0, 1fr));
   }
 
+  .md\:items-end{
+    align-items:flex-end;
+  }
+
   .md\:items-center{
     align-items:center;
   }
@@ -2318,6 +2380,11 @@ button:hover {
 
   .md\:justify-between{
     justify-content:space-between;
+  }
+
+  .md\:px-\[100px\]{
+    padding-left:100px;
+    padding-right:100px;
   }
 
   .md\:px-\[70px\]{
@@ -2383,6 +2450,10 @@ button:hover {
     flex-direction:row;
   }
 
+  .lg\:flex-col{
+    flex-direction:column;
+  }
+
   .lg\:pl-7{
     padding-left:1.75rem;
   }
@@ -2393,16 +2464,12 @@ button:hover {
     height:174px;
   }
 
+  .xl\:h-\[320px\]{
+    height:320px;
+  }
+
   .xl\:h-\[321px\]{
     height:321px;
-  }
-
-  .xl\:h-\[390px\]{
-    height:390px;
-  }
-
-  .xl\:h-\[52\.33px\]{
-    height:52.33px;
   }
 
   .xl\:w-\[1025px\]{
@@ -2411,6 +2478,10 @@ button:hover {
 
   .xl\:w-\[1114px\]{
     width:1114px;
+  }
+
+  .xl\:w-\[1226px\]{
+    width:1226px;
   }
 
   .xl\:w-\[324px\]{
@@ -2429,20 +2500,12 @@ button:hover {
     width:498px;
   }
 
-  .xl\:w-\[52\.32px\]{
-    width:52.32px;
-  }
-
   .xl\:w-\[548px\]{
     width:548px;
   }
 
   .xl\:w-\[551px\]{
     width:551px;
-  }
-
-  .xl\:w-\[564px\]{
-    width:564px;
   }
 
   .xl\:w-\[580px\]{
@@ -2459,7 +2522,7 @@ button:hover {
     width:1200px;
   }
 
-  .\32xl\:max-w-\[1116px\]{
-    max-width:1116px;
+  .\32xl\:max-w-\[1200px\]{
+    max-width:1200px;
   }
 }

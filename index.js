@@ -5,6 +5,17 @@ function Menu(e){
      list.classList.remove('opacity-100'))
 }
 
+// rotate logo
+document.addEventListener('DOMContentLoaded', () => {
+    const image = document.getElementById('rotate-on-scroll');
+    window.addEventListener('scroll', () => {
+        // Calculate the rotation based on the scroll position
+        const scrollPosition = window.scrollY;
+        const rotation = scrollPosition % 360; // Keep the rotation within 0-359 degrees
+        image.style.transform = `rotate(${rotation}deg)`;
+    });
+});
+// rotate logo
   
 // play video
 document.addEventListener('DOMContentLoaded', () => {
@@ -32,6 +43,31 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     window.addEventListener('scroll', changeBg)
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+   
+    // Add scroll event listener
+    window.addEventListener('scroll', function() {
+        var scrollY = window.scrollY;
+        var header = document.querySelector('header');
+        var ul = document.querySelector('ul.cass');
+
+        // Check if the window width is at least md breakpoint (768px)
+        if (window.innerWidth >= 768) {
+            // Add or remove 'scrolled' class based on scroll position
+            if (scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        } else {
+            // Remove 'scrolled' class if window width is below md breakpoint
+            header.classList.remove('scrolled');
+        }
+    });
+
+
 });
 //// bg color for nav end ////////
 

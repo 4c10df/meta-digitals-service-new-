@@ -113,15 +113,31 @@ p{
 
 /* fonts */
 /* nav bar  */
-@media (min-width: 768px){
+@media (min-width: 764px){
     .cass{
       background: none;
     }
+    ul.cass li {
+        color: #FFFFFF; /* Set the default text color for mobile*/
+        transition: all 2ms ease;
+    }
+    /* Change text color on scroll */
+    header.scrolled ul.cass li {
+        color: #2E2E2E; /* Set the text color when scrolled */
+        transition: all 2ms ease;
+    }
 }
+
 .bgColor{
-    background-color: #262423;
-    transition: 5s;
+    background-color: #FFFFFF;
+    transition: 2ms ease;
 }
+ul li {
+    color: #2E2E2E; /* Set the default text color */
+    
+}
+
+
 /* nav bar  */
 
 .bigcolour{
@@ -132,6 +148,20 @@ p{
 }
 
 /* contact form */
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotate-onload {
+    animation: rotate 5s linear ;
+}
+
 
 .group1{
     display: flex;
@@ -386,19 +416,6 @@ button:hover {
     border-right: 100px solid #166534;
     border-top: 100px solid transparent;
     
-}
-
-@keyframes rotate {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-.rotate-infinite {
-    animation: rotate 34s linear infinite;
 }
 
 

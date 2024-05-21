@@ -985,6 +985,10 @@ video {
   height:100%;
 }
 
+.h-\[532px\]{
+  height:532px;
+}
+
 .w-\[1152px\]{
   width:1152px;
 }
@@ -1320,6 +1324,11 @@ video {
   padding-right:24px;
 }
 
+.px-\[40px\]{
+  padding-left:40px;
+  padding-right:40px;
+}
+
 .px-\[78px\]{
   padding-left:78px;
   padding-right:78px;
@@ -1385,22 +1394,12 @@ video {
   padding-bottom:60px;
 }
 
-.px-\[30px\]{
-  padding-left:30px;
-  padding-right:30px;
-}
-
-.px-\[40px\]{
-  padding-left:40px;
-  padding-right:40px;
-}
-
 .pb-\[15px\]{
   padding-bottom:15px;
 }
 
-.pb-\[30px\]{
-  padding-bottom:30px;
+.pb-\[20px\]{
+  padding-bottom:20px;
 }
 
 .pb-\[35px\]{
@@ -1409,18 +1408,6 @@ video {
 
 .pr-\[5px\]{
   padding-right:5px;
-}
-
-.pb-\[0px\]{
-  padding-bottom:0px;
-}
-
-.pb-\[40px\]{
-  padding-bottom:40px;
-}
-
-.pb-\[20px\]{
-  padding-bottom:20px;
 }
 
 .text-left{
@@ -2290,6 +2277,10 @@ button:hover {
     height:344.37px;
   }
 
+  .sm\:h-\[532px\]{
+    height:532px;
+  }
+
   .sm\:h-\[63px\]{
     height:63px;
   }
@@ -2304,6 +2295,10 @@ button:hover {
 
   .sm\:w-\[233px\]{
     width:233px;
+  }
+
+  .sm\:w-\[355px\]{
+    width:355px;
   }
 
   .sm\:w-\[386px\]{

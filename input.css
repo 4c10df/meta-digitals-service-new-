@@ -5,7 +5,7 @@
     color: #484848;
     font-optical-sizing: auto;
     font-family: "Familjen Grotesk";
-  
+    font-family: 'Averta', Arial, sans-serif;
 }
 
 
@@ -224,11 +224,15 @@ textarea:-ms-input-placeholder {
 
 
 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 16px;
     font-weight: 600;
     font-family: 'Familjen Grotesk';
     text-transform: capitalize;
     line-height: 20px;
+    height: 100%;
     width: 100%;
     text-align: center;
     padding-top: 16px;
@@ -238,7 +242,6 @@ button {
     background: #15803D;
     color:#FFFFFF ;
     border-radius: 8px ;
-    border:2px solid #15803D;
     transition-duration: 300ms;
     transition-property: all;
     transition-timing-function: ease-in-out;
@@ -248,7 +251,6 @@ button {
 button:hover {
     background-color: #505050;
     border-color: #38E427;
-    color: #38E427;
     border-radius: 20px;
 }
 

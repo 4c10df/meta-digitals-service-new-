@@ -71,7 +71,7 @@ module.exports = {
         'Averta' : ['Averta'],
         'palatino' : ['Galano Grotesque'],
         'garamond' : ['"Galano Grotesque"'],
-        'mono' : ['"Averta" '],
+        'mono' : ['Galano Grotesque '],
       },
 
 

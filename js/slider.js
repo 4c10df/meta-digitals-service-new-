@@ -6,10 +6,10 @@ document.addEventListener('DOMContentLoaded', () => {
     slidesPerGroup: 1,
     loop: true,
 
-    autoplay: {
-        delay: 5000,
-        disableOnInteraction: false,
-    },
+    // autoplay: {
+    //     delay: 5000,
+    //     disableOnInteraction: false,
+    // },
     loopFillGroupWithBlank: true,
     pagination: {
         el: '.swiper-pagination',

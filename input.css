@@ -142,6 +142,7 @@ p{
     transition: 2ms ease;
 }
 ul li {
+    width: 100%;
     color: #2E2E2E; /* Set the default text color */
     
 }
@@ -361,13 +362,15 @@ button:hover {
     width: 80px;
     border-radius: 50%;
     background: #FFF;
-    padding: 3px;
+    overflow: hidden;
+
 }
-.card-image .card-img{
+.card-img{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border-radius: 50%;
+    object-position: 0px 0px;
+    
 }
 .name{
     font-size: 20px;

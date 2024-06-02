@@ -5,7 +5,6 @@ function Menu(e){
      list.classList.remove('opacity-100'))
 }
 
-  
 
 //// bg color for nav  ////////
 document.addEventListener('DOMContentLoaded', () => {

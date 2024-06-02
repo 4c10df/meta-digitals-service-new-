@@ -66,13 +66,7 @@ module.exports = {
         
       },
 
-      fontFamily: {
-        'Familjen' : ['Familjen Grotesk'],
-        'Averta' : ['Averta'],
-        'palatino' : ['Galano Grotesque'],
-        'garamond' : ['"Galano Grotesque"'],
-        'mono' : ['Galano Grotesque '],
-      },
+     
 
 
       animation: {

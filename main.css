@@ -981,6 +981,10 @@ video {
   width:30px;
 }
 
+.w-\[319\.85px\]{
+  width:319.85px;
+}
+
 .w-\[40px\]{
   width:40px;
 }
@@ -2374,8 +2378,8 @@ button:hover {
 }
 
 @media (min-width: 950px){
-  .silver\:w-\[326px\]{
-    width:326px;
+  .silver\:w-\[263px\]{
+    width:263px;
   }
 
   .silver\:grid-cols-2{

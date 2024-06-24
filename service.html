@@ -391,8 +391,10 @@
     </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
-      </script>
+        AOS.init({
+            once: true // Ensures animation occurs only once
+        });
+    </script>
    <script src="js/index.js"></script>
 </body>
 </html>

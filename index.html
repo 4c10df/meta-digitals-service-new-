@@ -92,7 +92,7 @@
             <!-- rotating descrition logo -->
             <section class="relative flex flex-col justify-center items-center w-full h-auto ">
                 <div class="static w-full flex flex-col justify-center items-center 2xl:w-[1200px] px-[15px] pt-[95px] at500:px-[20px] silver:px-[100px] my-0 mx-auto">
-                    <div data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom" class="relative flex flex-col justify-center items-center h-[221.66px] w-[219.85px]">
+                    <div data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom" class="relative flex flex-col justify-center items-center h-auto w-[319.85px]">
                         <img src="image/rotateimage.png" class="h-full w-full object-cover rotate-onload" alt="">
                         <img src="image/Meta Logo Final 1.png" class="absolute h-[62px] w-[130px] object-cover"  alt="">
                     </div>
@@ -274,7 +274,7 @@
                                     About MDS
                                 </h2>
                                 <p data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom"
-                                    class="text-[20px] w-full  text-[#484848] leading-[32px] mb-[20px]">
+                                    class="text-[20px] w-full  text-[#676767] leading-[32px] mb-[20px]">
                                     MDS was established 2021 as a local content firm with strategic partners outside Nigeria. MDS is a professional
                                     technology solution provider that provides various services including consultancy, development, operations,
                                     maintenance,
@@ -408,6 +408,11 @@
     <script src="js/index.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
+        AOS.init({
+            once: true // Ensures animation occurs only once
+        });
+    </script>
+    <script>
         document.addEventListener('DOMContentLoaded', () => {
         const video = document.getElementById('myVideo');
 
@@ -419,8 +424,6 @@
             });
         });
     </script>
-    <script>
-      AOS.init();
-    </script>
+   
 </body>
 </html>

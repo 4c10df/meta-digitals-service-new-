@@ -76,11 +76,13 @@
 
         <main class= "relative bg-white flex justify-center flex-col items-center w-full h-auto">
             <!-- rotating descrition logo -->
-             <section class="relative flex flex-col justify-center items-center w-full h-auto ">
-                <div class="static w-full flex flex-col justify-center items-center 2xl:w-[1200px] px-[15px] py-[95px] at500:px-[20px] silver:px-[100px] my-0 mx-auto">
-                    <div data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom" class="relative flex flex-col justify-center items-center h-[221.66px] w-[219.85px]">
-                        <img src="image/rotateimage.png" class="h-full w-full object-cover rotate-onload"  alt="">
-                        <img src="image/Meta Logo Final 1.png" class="absolute h-auto w-[130px] object-cover"  alt="">
+            <section class="relative flex flex-col justify-center items-center w-full h-auto ">
+                <div
+                    class="static w-full flex flex-col justify-center items-center 2xl:w-[1200px] px-[15px] py-[95px] at500:px-[20px] silver:px-[100px] my-0 mx-auto">
+                    <div data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom"
+                        class="relative flex flex-col justify-center items-center h-auto w-[319.85px]">
+                        <img src="image/rotateimage.png" class="h-full w-full object-cover rotate-onload" alt="">
+                        <img src="image/Meta Logo Final 1.png" class="absolute h-[62px] w-[130px] object-cover" alt="">
                     </div>
                 </div>
             </section>
@@ -475,8 +477,10 @@
     </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
-      </script>
+        AOS.init({
+            once: true // Ensures animation occurs only once
+        });
+    </script>
     <!-- swiper js -->
     <script src="swiper-bundle.min.js"></script>
     <!-- swiper js -->

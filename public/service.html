@@ -1,349 +1,570 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>META DIGITAL SERVICES</title>
-    <link rel="stylesheet" href="output.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script src="https://kit.fontawesome.com/38e77e8a43.js" crossorigin="anonymous"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/38e77e8a43.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-</head>
-<body>
-    <div class="relative flex flex-col justify-center items-center w-full bg-white">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <div
+      class="relative flex flex-col justify-center items-center w-full bg-white"
+    >
+      <section
+        class="relative bg-no-repeat bg-cover bg-center py-[200px] w-full"
+        style="
+          background-image: url(./image/52c4848ecc987675d3177eec9f224cfa.jpg);
+        "
+      >
+        <!-- page-title -->
+        <div class="relative flex justify-center items-center w-full">
+          <!-- auto-container-->
+          <header
+            id="navbar"
+            class="fixed left-0 top-0 w-full h-[88px] flex justify-center items-center py-0 z-[999999]"
+          >
+            <div class="static w-full md:flex justify-center items-center">
+              <nav class="h-auto flex items-center justify-center w-full">
+                <div
+                  class="flex justify-between items-center relative w-full 2xl:w-[1200px] px-[15px] py-[10px] at500:px-[20px] silver:px-[100px] my-0 mx-auto"
+                >
+                  <div
+                    class="relative flex justify-between items-center w-full md:w-[300px] z-[888]"
+                  >
+                    <span class="text-2xl cursor-pointer w-[60px] h-auto logo">
+                      <a href="index.html">
+                        <img
+                          class="w-full h-auto"
+                          src="image/Meta Logo Final 1.png"
+                          alt="logo"
+                          loading="lazy"
+                        />
+                      </a>
+                    </span>
 
-        <section class="relative bg-no-repeat bg-cover bg-center py-[200px] w-full" style="background-image:url(./image/52c4848ecc987675d3177eec9f224cfa.jpg);"><!-- page-title -->
-            <div class="relative flex justify-center items-center w-full"><!-- auto-container-->
-                <header id="navbar" class="fixed left-0 top-0 w-full h-[88px] flex justify-center items-center py-0 z-[999999] ">
-                    <div class="static w-full md:flex justify-center items-center ">
-                        <nav class="h-auto flex items-center justify-center w-full ">
-        
-                            <div class="flex justify-between items-center relative w-full 2xl:w-[1200px] px-[15px] py-[10px] at500:px-[20px] silver:px-[100px] my-0 mx-auto">
-        
-                                <div class="relative flex justify-between items-center w-full md:w-[300px] z-[888]">
-                                    <span class="text-2xl cursor-pointer w-[60px] h-auto logo">
-                                        <a href="index.html">
-                                            <img class="w-full h-auto" src="image/Meta Logo Final 1.png" alt="logo">
-                                        </a>
-                                    </span>
-        
-                                    <span class="text-3xl cursor-pointer mx-2 md:hidden block rounded-[8px] border-[2px] border-[#817474]">
-                                        <ion-icon class="text-[29px] sm:text-[33px] text-[#38E427]" name="menu" onclick="Menu(this)"></ion-icon>
-                                    </span>
-                                </div>
-                
-                                
-                                <div class="flex justify-end items-end md:w-[548px]">
-                                    
-                                    <ul class="cass md:flex justify-between items-center md:items-center z-[88] md:z-auto float-left rounded-b-[8px] md:static absolute bg-white w-full left-0 md:py-0 py-4  top-[-400px] transition-all ease-in duration-500">
-                                        <li class="mx-4 md:mx-0 my-6 md:my-0">
-                                            <a class=" py-2 hover:text-[#19A20C] text-[18px] font-bold transition-all duration-300 ease-in-out" href="index.html">Home</a>
-                                        </li>
-                                        <li class="mx-4 md:mx-0 my-6 md:my-0">
-                                            <a class=" py-2 text-[18px] font-bold hover:text-[#38E427] transition-all duration-300 ease-in-out" href="about.html">About Us</a>
-                                        </li>
-                                        <li class="mx-4 md:mx-0 my-6 md:my-0">
-                                            <a class=" py-2 text-[18px] font-bold hover:text-[#38E427] transition-all duration-300 ease-in-out" href="solution.html">Solutions</a>
-                                        </li>
-                                        <li class="mx-4 md:mx-0 my-6 md:my-0">
-                                            <a class=" py-2 text-[18px] font-bold cursor-pointer text-[#19A20C] transition-all duration-300 ease-in-out" href="service.html">Service</a>
-                                        </li>
-                                        <li class="mx-4 md:mx-0 my-6 md:my-0">
-                                            <a class=" py-2 text-[18px] font-bold hover:text-[#38E427] transition-all duration-300 ease-in-out" href="contact.html">Contact Us</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                
-                            </div>
-        
-                        </nav>
-                    </div>
-                </header>
-                <div class="absolute  flex flex-col justify-center items-center">
-                    <h2 class="pb-[15px] text-white capitalize">service</h2>
-                    <!-- <hr class="text-[36px] font-bold w-[154px] h-[7px] rounded-[8px] border-none bg-[#c9dbd0]"> -->
+                    <span
+                      class="text-3xl cursor-pointer mx-2 md:hidden block rounded-[8px] border-[2px] border-[#817474]"
+                    >
+                      <ion-icon
+                        class="text-[29px] sm:text-[33px] text-[#38E427]"
+                        name="menu"
+                        onclick="Menu(this)"
+                      ></ion-icon>
+                    </span>
+                  </div>
+
+                  <div class="flex justify-end items-end md:w-[548px]">
+                    <ul
+                      class="cass md:flex justify-between items-center md:items-center z-[88] md:z-auto float-left rounded-b-[8px] md:static absolute bg-white w-full left-0 md:py-0 py-4 top-[-400px] transition-all ease-in duration-500"
+                    >
+                      <li class="mx-4 md:mx-0 my-6 md:my-0">
+                        <a
+                          class="py-2 hover:text-[#19A20C] text-[18px] font-bold transition-all duration-300 ease-in-out"
+                          href="index.html"
+                          >Home</a
+                        >
+                      </li>
+                      <li class="mx-4 md:mx-0 my-6 md:my-0">
+                        <a
+                          class="py-2 text-[18px] font-bold hover:text-[#38E427] transition-all duration-300 ease-in-out"
+                          href="about.html"
+                          >About Us</a
+                        >
+                      </li>
+                      <li class="mx-4 md:mx-0 my-6 md:my-0">
+                        <a
+                          class="py-2 text-[18px] font-bold hover:text-[#38E427] transition-all duration-300 ease-in-out"
+                          href="solution.html"
+                          >Solutions</a
+                        >
+                      </li>
+                      <li class="mx-4 md:mx-0 my-6 md:my-0">
+                        <a
+                          class="py-2 text-[18px] font-bold cursor-pointer text-[#19A20C] transition-all duration-300 ease-in-out"
+                          href="service.html"
+                          >Service</a
+                        >
+                      </li>
+                      <li class="mx-4 md:mx-0 my-6 md:my-0">
+                        <a
+                          class="py-2 text-[18px] font-bold hover:text-[#38E427] transition-all duration-300 ease-in-out"
+                          href="contact.html"
+                          >Contact Us</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-            </div><!-- auto-container-->
-        </section><!-- page-title -->
-        
-        <main class= "relative bg-white flex justify-center flex-col items-center w-full h-auto">
-            <!---Public Sector-->
-            <section class="relative flex flex-col justify-center items-center w-full h-auto ">
-                <div class="static w-full flex justify-center items-center 2xl:w-[1200px] px-[15px] py-[95px] at500:px-[20px] silver:px-[100px] my-0 mx-auto">
-                    <div class="flex flex-col lg:flex-row justify-between gap-[60px] items-center w-full h-auto">
-                        
+              </nav>
+            </div>
+          </header>
+          <div class="absolute flex flex-col justify-center items-center">
+            <h2 class="pb-[15px] text-white capitalize">service</h2>
+            <!-- <hr class="text-[36px] font-bold w-[154px] h-[7px] rounded-[8px] border-none bg-[#c9dbd0]"> -->
+          </div>
+        </div>
+        <!-- auto-container-->
+      </section>
+      <!-- page-title -->
 
-                        <div class="flex flex-col w-full h-full mb-[30px] ">
-                            <div class="w-full h-full ">
-                                <img class="w-full h-auto sm:w-[551px] sm:h-[321px] rounded-[200px] object-cover" src="image/558b06808d4f253157f68bcac6074ebb.jpg" alt="frame">
-                            </div>
-                        </div>
-                        
-
-                        <div class="relative w-full xl:w-[580px] float-right">
-                            <h2 data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom" class="text-[#166534] w-full xl:w-[475px] mb-[30px]">
-                                Public Sector
-                            </h2>
-                            <p data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom" class="text-[20px] w-full xl:w-[475px] text-[#484848] leading-[32px] mb-[30px]">
-                                Cross-Border Clearance and Payment Solution. Full and functional payment inter-operability. Paperless Trade Facilitation. 
-                                Platform with Audit Functionality. Providing an advanced platform that fosters enhanced revenue collection for Nigeria Government
-                            </p>
-                        </div>
-                       
-                    </div>
-
+      <main
+        class="relative bg-white flex justify-center flex-col items-center w-full h-auto"
+      >
+        <!---Public Sector-->
+        <section
+          class="relative flex flex-col justify-center items-center w-full h-auto"
+        >
+          <div
+            class="static w-full flex justify-center items-center 2xl:w-[1200px] px-[15px] py-[95px] at500:px-[20px] silver:px-[100px] my-0 mx-auto"
+          >
+            <div
+              class="flex flex-col lg:flex-row justify-between gap-[60px] items-center w-full h-auto"
+            >
+              <div class="flex flex-col w-full h-full mb-[30px]">
+                <div class="w-full h-full">
+                  <img
+                    class="w-full h-auto sm:w-[551px] sm:h-[321px] rounded-[200px] object-cover"
+                    src="image/558b06808d4f253157f68bcac6074ebb.jpg"
+                    alt="frame"
+                    loading="lazy"
+                  />
                 </div>
-            </section>
-            <!---Public Sector-->
+              </div>
 
-            <!---Private Sector-->
-            <section class="relative  flex flex-col justify-center items-center w-full h-auto">
-                <div class="static w-full flex justify-center items-center 2xl:w-[1200px] px-[15px] py-[95px] at500:px-[20px] silver:px-[100px] my-0 mx-auto">
-                    <div class="flex flex-col lg:flex-row justify-between items-center w-full h-auto">
-                        <div class="relative w-full mb-[30px]">
-                            <h2 data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom" class="text-[#166534] w-full md:w-[475px] mb-[30px]">
-                                Private Sector
-                            </h2>
-                            <p data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom" class="text-[20px] w-full sm:w-[475px] text-[#484848] leading-[32px] mb-[30px]">
-                                Providing a globally tried and tested Platform and working with the experienced partners.
-                                Enabling users to with a single data entry apply for permits, licenses and permits and process customs declarations.
-                            </p>
-                            
-                            <!-- <div data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom" class="block items-end justify-center w-full sm:w-[157px] h-[40px]">
+              <div class="relative w-full xl:w-[580px] float-right">
+                <h2
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  data-aos-anchor-placement="top-bottom"
+                  class="text-[#166534] w-full xl:w-[475px] mb-[30px]"
+                >
+                  Public Sector
+                </h2>
+                <p
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  data-aos-anchor-placement="top-bottom"
+                  class="text-[20px] w-full xl:w-[475px] text-[#484848] leading-[32px] mb-[30px]"
+                >
+                  Cross-Border Clearance and Payment Solution. Full and
+                  functional payment inter-operability. Paperless Trade
+                  Facilitation. Platform with Audit Functionality. Providing an
+                  advanced platform that fosters enhanced revenue collection for
+                  Nigeria Government
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!---Public Sector-->
+
+        <!---Private Sector-->
+        <section
+          class="relative flex flex-col justify-center items-center w-full h-auto"
+        >
+          <div
+            class="static w-full flex justify-center items-center 2xl:w-[1200px] px-[15px] py-[95px] at500:px-[20px] silver:px-[100px] my-0 mx-auto"
+          >
+            <div
+              class="flex flex-col lg:flex-row justify-between items-center w-full h-auto"
+            >
+              <div class="relative w-full mb-[30px]">
+                <h2
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  data-aos-anchor-placement="top-bottom"
+                  class="text-[#166534] w-full md:w-[475px] mb-[30px]"
+                >
+                  Private Sector
+                </h2>
+                <p
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  data-aos-anchor-placement="top-bottom"
+                  class="text-[20px] w-full sm:w-[475px] text-[#484848] leading-[32px] mb-[30px]"
+                >
+                  Providing a globally tried and tested Platform and working
+                  with the experienced partners. Enabling users to with a single
+                  data entry apply for permits, licenses and permits and process
+                  customs declarations.
+                </p>
+
+                <!-- <div data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom" class="block items-end justify-center w-full sm:w-[157px] h-[40px]">
                                 <a href="contact.html">
                                     <button class="!bg-[#16A34A]">Contact Us</button>
                                 </a>
                             </div> -->
-                        
-                        </div>
-                        <div class="flex flex-col w-full h-full mb-[50px] ">
-                            <div class="w-full h-full ">
-                                <img class="w-full h-auto sm:w-[551px] sm:h-[321px] rounded-[200px] object-cover" src="image/a67013e3e97c57cacf8a7e1c5d89b378.jpg" alt="frame">
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="flex flex-col w-full h-full mb-[50px]">
+                <div class="w-full h-full">
+                  <img
+                    class="w-full h-auto sm:w-[551px] sm:h-[321px] rounded-[200px] object-cover"
+                    src="image/a67013e3e97c57cacf8a7e1c5d89b378.jpg"
+                    alt="frame"
+                    loading="lazy"
+                  />
                 </div>
-            </section>
-            <!---Private Sector-->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!---Private Sector-->
 
-            <!---Business Consulting-->
-            <section class="relative bg-[#F0FDF4] flex flex-col justify-center items-center w-full h-auto ">
-                <div class="static w-full flex justify-center items-center 2xl:w-[1200px] px-[15px] py-[95px] at500:px-[20px] silver:px-[100px] my-0 mx-auto">
-                    <div class="flex flex-col lg:flex-row justify-between gap-[60px] items-center w-full h-auto">
-                        
-
-                        <div class="flex flex-col w-full h-full mb-[30px] ">
-                            <div class="w-full h-full ">
-                                <img class="w-full h-auto sm:w-[551px] sm:h-[321px] rounded-[200px] object-cover" src="image/0788.jpeg" alt="frame">
-                            </div>
-                        </div>
-                        
-
-                        <div class="relative w-full xl:w-[580px] float-right">
-                            <h2 data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom" class="text-[#166534] w-full xl:w-[475px] mb-[30px]">
-                                Business Consulting
-                            </h2>
-                            <p data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom" class="text-[20px] w-full xl:w-[475px] text-[#484848] leading-[32px] mb-[30px]">
-                                Risk Management – enable enforcement – harder NOT
-                                to complyBusiness Network. Supporting nationwide automation - Data
-                                validation, preventing fraud.  Lower costs, convenience, faster
-                                and simplified processes
-                            </p>
-                        </div>
-                       
-                    </div>
-
+        <!---Business Consulting-->
+        <section
+          class="relative bg-[#F0FDF4] flex flex-col justify-center items-center w-full h-auto"
+        >
+          <div
+            class="static w-full flex justify-center items-center 2xl:w-[1200px] px-[15px] py-[95px] at500:px-[20px] silver:px-[100px] my-0 mx-auto"
+          >
+            <div
+              class="flex flex-col lg:flex-row justify-between gap-[60px] items-center w-full h-auto"
+            >
+              <div class="flex flex-col w-full h-full mb-[30px]">
+                <div class="w-full h-full">
+                  <img
+                    class="w-full h-auto sm:w-[551px] sm:h-[321px] rounded-[200px] object-cover"
+                    src="image/0788.jpeg"
+                    alt="frame"
+                    loading="lazy"
+                  />
                 </div>
-            </section>
-            <!---Business Consulting-->
+              </div>
 
-             <!---ICT Training-->
-             <section class="relative bg-[#F0FDF4] flex flex-col justify-center items-center w-full h-auto">
-                <div class="static w-full flex justify-center items-center 2xl:w-[1200px] px-[15px] py-[95px] at500:px-[20px] silver:px-[100px] my-0 mx-auto">
-                    <div class="flex flex-col lg:flex-row justify-between items-center w-full h-auto">
-                        
-                        <div class="relative w-full mb-[30px]">
-                            <h2 data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom" class="text-[#166534] w-full md:w-[475px] mb-[30px]">
-                                ICT Training and Capacity Building
-                            </h2>
-                            <p data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom" class="text-[20px] w-full sm:w-[475px] text-[#484848] leading-[32px] mb-[30px]">
-                                Providing a globally tried and tested Platform and working with the experienced partners.
-                                Enabling users to with a single data entry apply for permits, licenses and permits and process customs declarations.
-                            </p>
-                        </div>
+              <div class="relative w-full xl:w-[580px] float-right">
+                <h2
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  data-aos-anchor-placement="top-bottom"
+                  class="text-[#166534] w-full xl:w-[475px] mb-[30px]"
+                >
+                  Business Consulting
+                </h2>
+                <p
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  data-aos-anchor-placement="top-bottom"
+                  class="text-[20px] w-full xl:w-[475px] text-[#484848] leading-[32px] mb-[30px]"
+                >
+                  Risk Management – enable enforcement – harder NOT to
+                  complyBusiness Network. Supporting nationwide automation -
+                  Data validation, preventing fraud. Lower costs, convenience,
+                  faster and simplified processes
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!---Business Consulting-->
 
+        <!---ICT Training-->
+        <section
+          class="relative bg-[#F0FDF4] flex flex-col justify-center items-center w-full h-auto"
+        >
+          <div
+            class="static w-full flex justify-center items-center 2xl:w-[1200px] px-[15px] py-[95px] at500:px-[20px] silver:px-[100px] my-0 mx-auto"
+          >
+            <div
+              class="flex flex-col lg:flex-row justify-between items-center w-full h-auto"
+            >
+              <div class="relative w-full mb-[30px]">
+                <h2
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  data-aos-anchor-placement="top-bottom"
+                  class="text-[#166534] w-full md:w-[475px] mb-[30px]"
+                >
+                  ICT Training and Capacity Building
+                </h2>
+                <p
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  data-aos-anchor-placement="top-bottom"
+                  class="text-[20px] w-full sm:w-[475px] text-[#484848] leading-[32px] mb-[30px]"
+                >
+                  Providing a globally tried and tested Platform and working
+                  with the experienced partners. Enabling users to with a single
+                  data entry apply for permits, licenses and permits and process
+                  customs declarations.
+                </p>
+              </div>
 
-                        <div class="flex flex-col w-full h-full mb-[50px] ">
-                            <div class="w-full h-full ">
-                                <img class="w-full h-auto sm:w-[551px] sm:h-[321px] rounded-[200px] object-cover" src="image/task.jpeg" alt="frame">
-                            </div>
-                        </div>
-                    </div>
+              <div class="flex flex-col w-full h-full mb-[50px]">
+                <div class="w-full h-full">
+                  <img
+                    class="w-full h-auto sm:w-[551px] sm:h-[321px] rounded-[200px] object-cover"
+                    src="image/task.jpeg"
+                    alt="frame"
+                    loading="lazy"
+                  />
                 </div>
-            </section>
-            <!---ICT Training-->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!---ICT Training-->
 
-            <!---Operations and Maintenancer-->
-            <section class="relative flex flex-col justify-center items-center w-full h-auto ">
-                <div class="static w-full flex justify-center items-center 2xl:w-[1200px] px-[15px] py-[95px] at500:px-[20px] silver:px-[100px] my-0 mx-auto">
-                    <div class="flex flex-col lg:flex-row justify-between gap-[60px] items-center w-full h-auto">
-                        
-
-                        <div class="flex flex-col w-full h-full mb-[30px] ">
-                            <div class="w-full h-full ">
-                                <img class="w-full h-auto sm:w-[551px] sm:h-[321px] rounded-[200px] object-cover" src="image/5e341a8fbf29b5db5267b6c21a1a6a4a.jpg" alt="frame">
-                            </div>
-                        </div>
-                        
-
-                        <div class="relative w-full xl:w-[580px] float-right">
-                            <h2 data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom" class="text-[#166534] w-full xl:w-[475px] mb-[30px]">
-                                Operations and Maintenance
-                            </h2>
-                            <p data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom" class="text-[20px] w-full xl:w-[475px] text-[#484848] leading-[32px] mb-[30px]">
-                                Providing a globally tried and tested Platform and working with the experienced partners.
-                            </p>
-                        </div>
-                       
-                    </div>
-
+        <!---Operations and Maintenancer-->
+        <section
+          class="relative flex flex-col justify-center items-center w-full h-auto"
+        >
+          <div
+            class="static w-full flex justify-center items-center 2xl:w-[1200px] px-[15px] py-[95px] at500:px-[20px] silver:px-[100px] my-0 mx-auto"
+          >
+            <div
+              class="flex flex-col lg:flex-row justify-between gap-[60px] items-center w-full h-auto"
+            >
+              <div class="flex flex-col w-full h-full mb-[30px]">
+                <div class="w-full h-full">
+                  <img
+                    class="w-full h-auto sm:w-[551px] sm:h-[321px] rounded-[200px] object-cover"
+                    src="image/5e341a8fbf29b5db5267b6c21a1a6a4a.jpg"
+                    alt="frame"
+                    loading="lazy"
+                  />
                 </div>
-            </section>
-            <!---Operations and Maintenance-->
+              </div>
 
-            <!---Development-->
-            <section class="relative  flex flex-col justify-center items-center w-full h-auto">
-                <div class="static w-full flex justify-center items-center 2xl:w-[1200px] px-[15px] py-[95px] at500:px-[20px] silver:px-[100px] my-0 mx-auto">
-                    <div class="flex flex-col lg:flex-row justify-between items-center w-full h-auto">
-                        <div class="relative w-full mb-[30px]">
-                            <h2 data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom" class="text-[#166534] w-full md:w-[475px] mb-[30px]">
-                                Development
-                            </h2>
-                            <p data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom" class="text-[20px] w-full sm:w-[475px] text-[#484848] leading-[32px] mb-[30px]">
-                                Our system and solutions have open and agile platforms that provide a further level of configurability 
-                                and customisability, allowing deployments to cater intimately to our customer needs and ensure a future proof solution.
-                            </p>
-                            
-                            <!-- <div data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom" class="block items-end justify-center w-full sm:w-[157px] h-[40px]">
+              <div class="relative w-full xl:w-[580px] float-right">
+                <h2
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  data-aos-anchor-placement="top-bottom"
+                  class="text-[#166534] w-full xl:w-[475px] mb-[30px]"
+                >
+                  Operations and Maintenance
+                </h2>
+                <p
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  data-aos-anchor-placement="top-bottom"
+                  class="text-[20px] w-full xl:w-[475px] text-[#484848] leading-[32px] mb-[30px]"
+                >
+                  Providing a globally tried and tested Platform and working
+                  with the experienced partners.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!---Operations and Maintenance-->
+
+        <!---Development-->
+        <section
+          class="relative flex flex-col justify-center items-center w-full h-auto"
+        >
+          <div
+            class="static w-full flex justify-center items-center 2xl:w-[1200px] px-[15px] py-[95px] at500:px-[20px] silver:px-[100px] my-0 mx-auto"
+          >
+            <div
+              class="flex flex-col lg:flex-row justify-between items-center w-full h-auto"
+            >
+              <div class="relative w-full mb-[30px]">
+                <h2
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  data-aos-anchor-placement="top-bottom"
+                  class="text-[#166534] w-full md:w-[475px] mb-[30px]"
+                >
+                  Development
+                </h2>
+                <p
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  data-aos-anchor-placement="top-bottom"
+                  class="text-[20px] w-full sm:w-[475px] text-[#484848] leading-[32px] mb-[30px]"
+                >
+                  Our system and solutions have open and agile platforms that
+                  provide a further level of configurability and
+                  customisability, allowing deployments to cater intimately to
+                  our customer needs and ensure a future proof solution.
+                </p>
+
+                <!-- <div data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom" class="block items-end justify-center w-full sm:w-[157px] h-[40px]">
                                 <a href="contact.html">
                                     <button class="!bg-[#16A34A]">Contact Us</button>
                                 </a>
                             </div> -->
-                        
-                        </div>
-                        <div class="flex flex-col w-full h-full mb-[50px] ">
-                            <div class="w-full h-full ">
-                                <img class="w-full h-auto sm:w-[551px] sm:h-[321px] rounded-[200px] object-cover" src="image/dca7a5ee2a5eaa035e976b4c2b2f7f91.jpg" alt="frame">
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="flex flex-col w-full h-full mb-[50px]">
+                <div class="w-full h-full">
+                  <img
+                    class="w-full h-auto sm:w-[551px] sm:h-[321px] rounded-[200px] object-cover"
+                    src="image/dca7a5ee2a5eaa035e976b4c2b2f7f91.jpg"
+                    alt="frame"
+                    loading="lazy"
+                  />
                 </div>
-            </section>
-            <!---Private Sector-->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!---Private Sector-->
 
-             <!---Knowledge Transfer-->
-             <section class="relative bg-[#F0FDF4] flex flex-col justify-center items-center w-full lg:h-[427px] h-auto ">
-                <div class="static w-full flex justify-center items-center 2xl:w-[1200px] px-[15px] py-[95px] at500:px-[20px] silver:px-[100px] my-0 mx-auto">
-                    <div class="flex flex-col lg:flex-row justify-between gap-[60px] items-center w-full h-auto">
-                        
-
-                        <div class="flex flex-col w-full h-full mb-[30px] ">
-                            <div class="w-full h-full ">
-                                <img class="w-full h-auto sm:w-[551px] sm:h-[321px] rounded-[200px] object-cover" src="image/d0eef33.jpeg" alt="frame">
-                            </div>
-                        </div>
-                        
-
-                        <div class="relative w-full xl:w-[580px] float-right">
-                            <h2 data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom" class="text-[#166534] w-full xl:w-[475px] mb-[30px]">
-                                Knowledge Transfer
-                            </h2>
-                            <p data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom" class="text-[20px] w-full xl:w-[475px] text-[#484848] leading-[32px] mb-[30px]">
-                                We encapsulate the learnings and best
-                                practices from our and our strategic partners worldwide 
-                                implementations so that the deployed systems are built on optimised processes
-                            </p>
-                        </div>
-                       
-                    </div>
-
+        <!---Knowledge Transfer-->
+        <section
+          class="relative bg-[#F0FDF4] flex flex-col justify-center items-center w-full lg:h-[427px] h-auto"
+        >
+          <div
+            class="static w-full flex justify-center items-center 2xl:w-[1200px] px-[15px] py-[95px] at500:px-[20px] silver:px-[100px] my-0 mx-auto"
+          >
+            <div
+              class="flex flex-col lg:flex-row justify-between gap-[60px] items-center w-full h-auto"
+            >
+              <div class="flex flex-col w-full h-full mb-[30px]">
+                <div class="w-full h-full">
+                  <img
+                    class="w-full h-auto sm:w-[551px] sm:h-[321px] rounded-[200px] object-cover"
+                    src="image/d0eef33.jpeg"
+                    alt="frame"
+                    loading="lazy"
+                  />
                 </div>
-            </section>
-            <!---background-->
-            <section class="relative bg-white flex flex-col justify-center items-center w-full h-auto ">
-                <div class="static w-full flex justify-center items-center 2xl:w-[1200px] px-[15px] py-[50px] at500:px-[20px] silver:px-[100px] my-0 mx-auto">
-                    
-            
-                </div>
-            </section>
-        </main>
+              </div>
 
-    <footer class="bg-[#f7fafd] relative flex flex-col justify-center items-center w-full h-auto ">
+              <div class="relative w-full xl:w-[580px] float-right">
+                <h2
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  data-aos-anchor-placement="top-bottom"
+                  class="text-[#166534] w-full xl:w-[475px] mb-[30px]"
+                >
+                  Knowledge Transfer
+                </h2>
+                <p
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  data-aos-anchor-placement="top-bottom"
+                  class="text-[20px] w-full xl:w-[475px] text-[#484848] leading-[32px] mb-[30px]"
+                >
+                  We encapsulate the learnings and best practices from our and
+                  our strategic partners worldwide implementations so that the
+                  deployed systems are built on optimised processes
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!---background-->
+        <section
+          class="relative bg-white flex flex-col justify-center items-center w-full h-auto"
+        >
+          <div
+            class="static w-full flex justify-center items-center 2xl:w-[1200px] px-[15px] py-[50px] at500:px-[20px] silver:px-[100px] my-0 mx-auto"
+          ></div>
+        </section>
+      </main>
+
+      <footer
+        class="bg-[#f7fafd] relative flex flex-col justify-center items-center w-full h-auto"
+      >
         <div
-            class="static w-full flex justify-center items-center 2xl:w-[1200px] px-[15px] pt-[95px] at500:px-[20px] silver:px-[100px] my-0 mx-auto">
-            <div class="w-full relative flex flex-col justify-center items-center ">
-                <div class="w-full flex flex-col lg:flex-row justify-between items-start mb-[30px]">
-    
-                    <div class="flex flex-col at500:flex-row lg:flex-col justify-between items-start w-full gap-[20px]">
-                        <span class="text-2xl cursor-pointer w-[60px] h-auto logo">
-                            <a href="index.html">
-                                <img class="w-full  h-auto " src="image/Meta Logo Final 1 (2).png" alt="logo">
-                            </a>
-                        </span>
-                        <p class="text-[20px] leading-[32px] text-[#484848] mb-[10px] ">
-                            We provide the best technology solutions
-                        </p>
-                        <span class="flex gap-5">
-                            <i
-                                class="fa-brands fa-linkedin hover:text-[#166534] transition-all duration-300 ease-in-out"></i>
-                            <i
-                                class="fa-brands fa-x-twitter hover:text-[#166534] transition-all duration-300 ease-in-out"></i>
-                            <i
-                                class="fa-brands fa-instagram hover:text-[#166534] transition-all duration-300 ease-in-out"></i>
-                        </span>
-                    </div>
-    
-                    <div class="flex flex-col at500:flex-row justify-between items-start w-full ">
-    
-                        <div class="w-full mb-[20px]">
-                            <ul>
-                                <li>
-                                    <i
-                                        class="font-bold not-italic font-Familjen  text-[24px] leading-[32px] text-[#484848]">MDS</i>
-                                </li>
-                                <li>
-                                    <a href="index.html">
-                                        <i
-                                            class="font-normal not-italic font-Familjen  text-[20px] leading-[32px] text-[#484848] hover:text-[#166534]">Home</i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="about.html">
-                                        <i
-                                            class="font-normal not-italic text-[20px] font-Familjen leading-[32px] text-[#484848] hover:text-[#166534]">About</i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="service.html">
-                                        <i
-                                            class="font-normal not-italic font-Familjen  text-[20px] leading-[32px] text-[#484848] hover:text-[#166534]">Services</i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!----contact Us-->
-                        <div class="w-full ">
-                            <ul>
-                                <li>
-                                    <i
-                                        class="font-bold not-italic font-Familjen  text-[24px] leading-[32px] text-[#484848] mb-[10px]">Contact
-                                        Us</i>
-                                </li>
-                                <!-- <li>
+          class="static w-full flex justify-center items-center 2xl:w-[1200px] px-[15px] pt-[95px] at500:px-[20px] silver:px-[100px] my-0 mx-auto"
+        >
+          <div
+            class="w-full relative flex flex-col justify-center items-center"
+          >
+            <div
+              class="w-full flex flex-col lg:flex-row justify-between items-start mb-[30px]"
+            >
+              <div
+                class="flex flex-col at500:flex-row lg:flex-col justify-between items-start w-full gap-[20px]"
+              >
+                <span class="text-2xl cursor-pointer w-[60px] h-auto logo">
+                  <a href="index.html">
+                    <img
+                      class="w-full h-auto"
+                      src="image/Meta Logo Final 1 (2).png"
+                      alt="logo"
+                      loading="lazy"
+                    />
+                  </a>
+                </span>
+                <p class="text-[20px] leading-[32px] text-[#484848] mb-[10px]">
+                  We provide the best technology solutions
+                </p>
+                <span class="flex gap-5">
+                  <i
+                    class="fa-brands fa-linkedin hover:text-[#166534] transition-all duration-300 ease-in-out"
+                  ></i>
+                  <i
+                    class="fa-brands fa-x-twitter hover:text-[#166534] transition-all duration-300 ease-in-out"
+                  ></i>
+                  <i
+                    class="fa-brands fa-instagram hover:text-[#166534] transition-all duration-300 ease-in-out"
+                  ></i>
+                </span>
+              </div>
+
+              <div
+                class="flex flex-col at500:flex-row justify-between items-start w-full"
+              >
+                <div class="w-full mb-[20px]">
+                  <ul>
+                    <li>
+                      <i
+                        class="font-bold not-italic font-Familjen text-[24px] leading-[32px] text-[#484848]"
+                        >MDS</i
+                      >
+                    </li>
+                    <li>
+                      <a href="index.html">
+                        <i
+                          class="font-normal not-italic font-Familjen text-[20px] leading-[32px] text-[#484848] hover:text-[#166534]"
+                          >Home</i
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="about.html">
+                        <i
+                          class="font-normal not-italic text-[20px] font-Familjen leading-[32px] text-[#484848] hover:text-[#166534]"
+                          >About</i
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a href="service.html">
+                        <i
+                          class="font-normal not-italic font-Familjen text-[20px] leading-[32px] text-[#484848] hover:text-[#166534]"
+                          >Services</i
+                        >
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <!----contact Us-->
+                <div class="w-full">
+                  <ul>
+                    <li>
+                      <i
+                        class="font-bold not-italic font-Familjen text-[24px] leading-[32px] text-[#484848] mb-[10px]"
+                        >Contact Us</i
+                      >
+                    </li>
+                    <!-- <li>
                                     <span class="flex items-center cursor-pointer text-left mb-[10px]">
                                         <i
                                             class="fa-solid fa-location-dot pr-[5px] hover:text-[#166534] transition-all duration-300 ease-in-out"></i>
@@ -353,82 +574,109 @@
                                         </i>
                                     </span>
                                 </li> -->
-                                <li>
-                                    <a href="tel:+2348078493303"
-                                        class="flex items-center cursor-pointer text-left mb-[10px]">
-                                        <i
-                                            class="fa-solid fa-phone pr-[5px] hover:text-[#166534] transition-all duration-300 ease-in-out"></i>
-                                        <i
-                                            class="font-normal not-italic font-Familjen  text-[20px] leading-[32px] text-[#484848] hover:text-[#166534] transition-all duration-300 ease-in-out">08034560022</i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="mailto:Info@metadigitalservices.ng"
-                                        class="flex items-center text-left mb-[10px]">
-                                        <i
-                                            class="fa fa-envelope pr-[5px] transition-all hover:text-[#166534] duration-300 ease-in-out"></i>
-                                        <i
-                                            class="font-normal not-italic font-Familjen  text-[20px] leading-[32px] text-[#484848]  transition-all duration-300 ease-in-out">Info@metadigitalservices.ng</i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="mailto:Metadigitalservices@iCloud.com"
-                                        class="flex items-center text-left mb-[10px]">
-                                        <i
-                                            class="fa fa-envelope pr-[5px] transition-all hover:text-[#166534] duration-300 ease-in-out"></i>
-                                        <i
-                                            class="font-normal not-italic font-Familjen  text-[20px] leading-[32px] text-[#484848]  transition-all duration-300 ease-in-out">Metadigitalservices@iCloud.com</i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                    <li>
+                      <a
+                        href="tel:+2348078493303"
+                        class="flex items-center cursor-pointer text-left mb-[10px]"
+                      >
+                        <i
+                          class="fa-solid fa-phone pr-[5px] hover:text-[#166534] transition-all duration-300 ease-in-out"
+                        ></i>
+                        <i
+                          class="font-normal not-italic font-Familjen text-[20px] leading-[32px] text-[#484848] hover:text-[#166534] transition-all duration-300 ease-in-out"
+                          >08034560022</i
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="mailto:Info@metadigitalservices.ng"
+                        class="flex items-center text-left mb-[10px]"
+                      >
+                        <i
+                          class="fa fa-envelope pr-[5px] transition-all hover:text-[#166534] duration-300 ease-in-out"
+                        ></i>
+                        <i
+                          class="font-normal not-italic font-Familjen text-[20px] leading-[32px] text-[#484848] transition-all duration-300 ease-in-out"
+                          >Info@metadigitalservices.ng</i
+                        >
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="mailto:Metadigitalservices@iCloud.com"
+                        class="flex items-center text-left mb-[10px]"
+                      >
+                        <i
+                          class="fa fa-envelope pr-[5px] transition-all hover:text-[#166534] duration-300 ease-in-out"
+                        ></i>
+                        <i
+                          class="font-normal not-italic font-Familjen text-[20px] leading-[32px] text-[#484848] transition-all duration-300 ease-in-out"
+                          >Metadigitalservices@iCloud.com</i
+                        >
+                      </a>
+                    </li>
+                  </ul>
                 </div>
-                <!--hr line-->
-                <hr class="h-[2px] w-full xl:w-[1025px]  bg-[#ECECEC]">
-                <!--copyright-->
-                <div class="at500:flex justify-between items-center w-full my-[30px]">
-                    <div class="flex w-full my-[10px]">
-                        <p class="text-[#353F50] leading-[16.8px] text-left text-[14px] !font-Familjen">Copyright ©
-                            <script>document.write(new Date().getFullYear())</script>MDS
-                        </p>
-                    </div>
-                    <div>
-                        <ul class="flex gap-8">
-                            <li>
-                                <a href="">
-                                    <i
-                                        class="text-[14px] not-italic font-normal !font-Familjen text-right leading-[18.9px] capitalize ">Privacy</i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <i
-                                        class="text-[14px] not-italic font-normal !font-Familjen  text-right leading-[18.9px] capitalize ">Legal</i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <i
-                                        class="text-[14px] not-italic font-normal !font-Familjen text-right leading-[18.9px] capitalize ">Feedback</i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-    
-                </div>
-    
+              </div>
             </div>
+            <!--hr line-->
+            <hr class="h-[2px] w-full xl:w-[1025px] bg-[#ECECEC]" />
+            <!--copyright-->
+            <div
+              class="at500:flex justify-between items-center w-full my-[30px]"
+            >
+              <div class="flex w-full my-[10px]">
+                <p
+                  class="text-[#353F50] leading-[16.8px] text-left text-[14px] !font-Familjen"
+                >
+                  Copyright ©
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  MDS
+                </p>
+              </div>
+              <div>
+                <ul class="flex gap-8">
+                  <li>
+                    <a href="">
+                      <i
+                        class="text-[14px] not-italic font-normal !font-Familjen text-right leading-[18.9px] capitalize"
+                        >Privacy</i
+                      >
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i
+                        class="text-[14px] not-italic font-normal !font-Familjen text-right leading-[18.9px] capitalize"
+                        >Legal</i
+                      >
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i
+                        class="text-[14px] not-italic font-normal !font-Familjen text-right leading-[18.9px] capitalize"
+                        >Feedback</i
+                      >
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-    </footer>
-
+      </footer>
     </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init({
-            once: true // Ensures animation occurs only once
-        });
+      AOS.init({
+        once: true, // Ensures animation occurs only once
+      });
     </script>
-   <script src="js/index.js"></script>
-</body>
+    <script src="js/index.js"></script>
+  </body>
 </html>
+

@@ -1584,7 +1584,7 @@ video {
   color:rgb(53 63 80 / var(--tw-text-opacity));
 }
 
-.text-\[\#38E427\]{
+.text-\[\#19A20C\]{
   --tw-text-opacity:1;
   color:rgb(56 228 39 / var(--tw-text-opacity));
 }
@@ -1947,7 +1947,7 @@ button {
 
 button:hover {
   background-color: #505050;
-  border-color: #38E427;
+  border-color: #19A20C;
   border-radius: 20px;
 }
 
@@ -1967,8 +1967,8 @@ button:hover {
 }
 
 .learn:hover {
-  border-color: #38E427;
-  color: #38E427;
+  border-color: #19A20C;
+  color: #19A20C;
   border-radius: 20px;
 }
 
@@ -2155,7 +2155,7 @@ button:hover {
   color:rgb(25 162 12 / var(--tw-text-opacity));
 }
 
-.hover\:text-\[\#38E427\]:hover{
+.hover\:text-\[\#19A20C\]:hover{
   --tw-text-opacity:1;
   color:rgb(56 228 39 / var(--tw-text-opacity));
 }

@@ -258,7 +258,7 @@ button {
 
 button:hover {
     background-color: #505050;
-    border-color: #38E427;
+    border-color: #19A20C;
     border-radius: 20px;
 }
 
@@ -279,8 +279,8 @@ button:hover {
 
 
 .learn:hover {
-    border-color: #38E427;
-    color: #38E427;
+    border-color: #19A20C;
+    color: #19A20C;
     border-radius: 20px;
 }
 
@@ -441,3 +441,18 @@ button:hover {
 
 
 /* solution ends */
+
+.fixed {
+    position: fixed;
+}
+
+.inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.bg-opacity-50 {
+    background-color: rgba(0, 0, 0, 0.5);
+}

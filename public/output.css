@@ -1457,11 +1457,6 @@ video {
   padding-bottom:30px;
 }
 
-.py-\[35px\]{
-  padding-top:35px;
-  padding-bottom:35px;
-}
-
 .py-\[50px\]{
   padding-top:50px;
   padding-bottom:50px;
@@ -1482,16 +1477,6 @@ video {
   padding-bottom:95px;
 }
 
-.py-\[5px\]{
-  padding-top:5px;
-  padding-bottom:5px;
-}
-
-.py-\[5opx\]{
-  padding-top:5opx;
-  padding-bottom:5opx;
-}
-
 .pb-\[10px\]{
   padding-bottom:10px;
 }
@@ -1506,6 +1491,10 @@ video {
 
 .pb-\[35px\]{
   padding-bottom:35px;
+}
+
+.pb-\[50px\]{
+  padding-bottom:50px;
 }
 
 .pb-\[70px\]{
@@ -1532,6 +1521,10 @@ video {
   padding-right:5px;
 }
 
+.pt-\[20px\]{
+  padding-top:20px;
+}
+
 .pt-\[30px\]{
   padding-top:30px;
 }
@@ -1542,14 +1535,6 @@ video {
 
 .pt-\[95px\]{
   padding-top:95px;
-}
-
-.pt-\[50px\]{
-  padding-top:50px;
-}
-
-.pb-\[50px\]{
-  padding-bottom:50px;
 }
 
 .text-left{

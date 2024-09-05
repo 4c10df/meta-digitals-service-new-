@@ -727,6 +727,26 @@ video {
   z-index:999;
 }
 
+.col-span-1{
+  grid-column:span 1 / span 1;
+}
+
+.col-span-2{
+  grid-column:span 2 / span 2;
+}
+
+.col-span-3{
+  grid-column:span 3 / span 3;
+}
+
+.row-span-1{
+  grid-row:span 1 / span 1;
+}
+
+.row-span-2{
+  grid-row:span 2 / span 2;
+}
+
 .float-right{
   float:right;
 }
